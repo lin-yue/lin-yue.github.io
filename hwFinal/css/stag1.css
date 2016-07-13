@@ -1,0 +1,146 @@
+/* page layout styles */
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background-color:#eee;
+    background: url("../images/bg.jpg") no-repeat fixed;
+    -moz-background-size:100% 100%;  
+    background-size:100% 100%;  /*背景图片自适应浏览器大小*/
+    height: 100vh;/*定义视口高度  占满整个屏幕*/
+    color:#fff;
+    font:14px/1.3 Arial,sans-serif;
+}
+.container {
+    background: url("../images/haiyang.jpg") repeat;
+    margin: 0px auto;
+    top:20px;
+    overflow: hidden;
+    position: relative;
+    width: 800px;
+    box-shadow: 7px 7px 8px #000;/*边框阴影*/
+    border:6px outset rgba(25,233,233,0.9);
+    border-radius: 8px;
+}
+
+.img1{
+	left: 6.9vw;
+	top: 27vh;
+	width: 12vh;
+	height: 12vh;
+	align: center;
+	z-index: 2;
+	position: absolute;
+    border-radius: 32px;
+    border:0.5px groove rgba(25,233,233,0.8);
+    -webkit-animation: delay 8s linear .10s infinite;/*自动旋转*/
+}
+
+.img2{
+	left: 6.9vw;
+	top: 45vh;
+	width: 13vh;
+	height: 13vh;
+	align: center;
+	z-index: 2;
+	position: absolute;
+    border-radius: 32px;
+    border:0.5px groove rgba(25,233,233,0.8);
+    -webkit-animation: delay 8s linear .10s infinite;/*自动旋转*/
+}
+
+.img3{
+	left: 6.9vw;
+	top: 63vh;
+	width: 12vh;
+	height: 12vh;
+	z-index: 2;
+	align: center;
+	position: absolute;
+    border-radius: 32px;
+    border:0.5px groove rgba(25,233,233,0.8);
+    -webkit-animation: delay 8s linear .10s infinite;/*自动旋转*/
+}
+
+/*海底奇遇*/
+.img4{
+    right: 6.9vw;
+    top: 17vh;
+    width: 10vh;
+    height: 10vh;
+    z-index: 3;
+    align: center;
+    position: absolute;
+    border-radius: 12px;
+    border:0.5px groove rgba(25,233,233,0.8);
+    transform: translateX(-10px) translateZ(10px) rotateZ(8deg)
+}
+.img4:hover{
+    transform: rotateZ(-360deg);
+}
+
+.img5{
+    right: 6.9vw;
+    top: 30vh;
+    width: 10vh;
+    height: 10vh;
+    z-index: 3;
+    align: center;
+    position: absolute;
+    border-radius: 12px;
+    border:0.5px groove rgba(25,233,233,0.8);
+    transform: translateX(-10px) translateZ(10px) rotateZ(8deg)
+}
+.img5:hover{
+    transform: rotateZ(-360deg);
+}
+
+.img6{
+    right: 6.9vw;
+    top: 43vh;
+    width: 10vh;
+    height: 10vh;
+    z-index: 3;
+    align: center;
+    position: absolute;
+    border-radius: 12px;
+    border:0.5px groove rgba(25,233,233,0.8);
+    transform: translateX(-10px) translateZ(10px) rotateZ(8deg)
+}
+.img6:hover{
+    transform: rotateZ(-360deg);
+}
+
+.img7{
+    right: 6.9vw;
+    top: 56vh;
+    width: 10vh;
+    height: 10vh;
+    z-index: 3;
+    align: center;
+    position: absolute;
+    border-radius: 12px;
+    border:0.5px groove rgba(25,233,233,0.8);
+    transform: translateX(-10px) translateZ(10px) rotateZ(8deg)
+}
+.img7:hover{
+    transform: rotateZ(-360deg);
+}
+
+/*旋转*/
+@-webkit-keyframes delay {
+    100% {
+        -webkit-transform: rotate(360deg);
+        -webkit-transform-origin: center
+    }
+}
+
+@-webkit-keyframes button {
+    0% {
+        color: #000
+    }
+    100% {
+        color: red
+    }
+}
