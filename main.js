@@ -1,4 +1,6 @@
 
+//程序运行的入口
+
 window.onload = function(){
 
 	gameControllerForLiveGame = new GameController();
