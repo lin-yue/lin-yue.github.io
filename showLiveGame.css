@@ -1,0 +1,181 @@
+*{margin:0;padding:0;border:0;}
+div.cell_live
+{
+	position:absolute;
+	left:0;
+	top:0;	
+	width: 20px;
+	height:20px;
+	background-color:green;
+	/*border:solid 1px black;*/
+	/*border:solid 6px rgb(253,253,253);
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px; 
+	border-radius:6px;*/
+}
+
+div.cell_dead
+{
+	position:absolute;
+	left:0;
+	top:0;
+	width: 20px;
+	height:20px;
+	background-color:white;
+	/*border:solid 1px black;*/
+	/*border:solid 6px rgb(253,253,253);
+	-moz-border-radius: 6px; 
+	-webkit-border-radius: 6px; 
+	border-radius:6px;*/
+}
+
+div#gameWidget
+{
+	display: block;
+	position: absolute;
+	left: 20%;
+	top:0;
+	width: 60%;
+	height:100%;
+	background-color: white;
+}
+
+div#errorMessage
+{
+	text-align:center;
+	display:none;
+}
+
+div#titlePart
+{
+	position:absolute;
+	display: table;
+	background-color:rgb(250,212,171); 
+	width:100%;
+	height:15%;
+	left:0;
+	top:0%;
+}
+
+div#controlPart
+{
+	display: block;
+	position:absolute;
+	width:100%;
+	height:10%;
+	left:0;
+	top:87%;
+}
+
+
+div#gamePart
+{
+	display: block;
+	position:absolute;
+	background-color:rgb(215,209,209);
+	width:100%;
+	height:70%;
+	left:0;
+	top:17%;
+}
+
+div#footer
+{
+	display: block;
+	position:absolute;
+	width:100%;
+	height:3%;
+	left:0;
+	top:97%;
+
+}
+
+p#titleText
+{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	font-size:3em;
+	font-weight:500;
+	font-family:Cursive;
+
+}
+
+body
+{
+	background-color:rgb(215,209,209);
+}
+
+form#controlForm
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+
+#startGame
+{
+	position:absolute;
+	display:none;
+	left:42%;
+	top:4%;
+	width:16%;
+	height: 80%;
+	font-size:1.6em;
+	font-weight:400;
+	border-color: black;
+	background-color: buttonface;
+	border-width: 2px;
+	border-style: outset;
+	border-image:initial;
+	padding:1px 6px;
+}
+
+#pauseGame
+{
+	position:absolute;
+	left:41%;
+	top:4%;;
+	width:8%;
+	font-size:1.6em;
+	font-weight:400;
+	border-color: black;
+	background-color: buttonface;
+	border-width: 2px;
+	border-style: outset;
+	border-image:initial;
+	padding:1px 6px;
+}
+
+#continueGame
+{
+	position:absolute;
+	left:41%;
+	top:4%;;
+	width:8%;
+	font-size:1.6em;
+	font-weight:400;
+	border-color: black;
+	background-color: buttonface;
+	border-width: 2px;
+	border-style: outset;
+	border-image:initial;
+	padding:1px 6px;
+}
+
+#resetGame
+{
+	position:absolute;
+	left:51%;
+	top:4%;;
+	width:8%;
+	font-size:1.6em;
+	font-weight:400;
+	border-color: black;
+	background-color: buttonface;
+	border-width: 2px;
+	border-style: outset;
+	border-image:initial;
+	padding:1px 6px;
+}
+

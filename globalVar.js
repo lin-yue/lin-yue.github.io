@@ -1,0 +1,7 @@
+var QUITEFLAG = false;
+var DEBUGFLAG = true;
+var CELL_LIVE = 1
+var CELL_DEAD = 0
+var DEFAULT_LINES = 100;
+var DEFAULT_ROWS = 100;
+var DEFAULT_INTERVAL = 50;
